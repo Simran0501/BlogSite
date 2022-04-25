@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+<br>
+<form action="/delete" method = "post">
+    <button type = "submit" class = "btn btn-lg btn-danger" name = "deletedID" value = "<%= id%>" >Delete</button>
+</form>
+<form action="/update" method = "post">
+    <button type = "submit" class = "btn btn-lg btn-warning" name = "updatedID" value = "<%= id%>">Update</button>
+</form>
+<h1><%= id %>. &nbsp;<%= title%></h1>
+<p><%= content%></p>
+<%- include("partials/footer") -%>
