@@ -150,8 +150,8 @@ app.post("/update", (req, res)=>{
   
 });
 
-const user = "abc@gmail.com";
-const password = "qwertyabc";
+const user = "***@gmail.com";
+const password = "*********";
 
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
